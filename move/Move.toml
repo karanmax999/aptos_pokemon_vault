@@ -1,0 +1,16 @@
+[package]
+name = "agent_vault_v2"
+version = "1.0.0"
+
+authors = []
+
+[addresses]
+trainer_addr = "0xba96f5a768abe9f74170c6993b24e6085cbff436d85ead8fa13acb4583309b28"
+
+[dev-addresses]
+trainer_addr = "0xba96f5a768abe9f74170c6993b24e6085cbff436d85ead8fa13acb4583309b28"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "aptos-node-v1.8.0" }
+
+[dev-dependencies]
